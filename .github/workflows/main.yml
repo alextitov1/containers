@@ -23,6 +23,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: .Base/almalinux/9/Dockerfile
+          file: ./Base/almalinux/9/Dockerfile
           push: true
           tags: ghcr.io/${{ github.repository }}/almalinux9:latest  
