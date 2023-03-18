@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Base/almalinux/Dockerfile
           push: true
-          tags: ghcr.io/${{ secrets.GITHUB_USERNAME }}/almalinux9:latest  
+          tags: ghcr.io/${{ github.repository }}/almalinux9:latest  
