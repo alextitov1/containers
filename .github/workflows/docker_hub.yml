@@ -28,4 +28,4 @@ jobs:
           file: ./Base/almalinux/9/Dockerfile
           platforms: linux/amd64,linux/arm64/v8
           push: true
-          tags: almalinux9:latest  
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/almalinux9:latest
